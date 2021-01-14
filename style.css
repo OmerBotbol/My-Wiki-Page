@@ -10,6 +10,17 @@ h1{
     font-size: 70px;
     text-align: center;
 }
+a{
+    font-family:sans-serif;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: blue;
+}
+.movie{
+    text-transform: capitalize;
+}
 /* start nav bar styling */
 .nav-bar{
     position:fixed;
@@ -28,12 +39,9 @@ h1{
 .nav-bar-list > li > a{
     color: white;
     text-decoration: none;
+    font-family:'Lato', sans-serif;
 }
 /* end nav bar styling */
-.movie{
-    text-transform: capitalize;
-}
-
 .upcoming-movie{
     display:flex;
     flex-direction: column;
