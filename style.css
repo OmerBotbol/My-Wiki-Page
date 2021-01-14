@@ -31,16 +31,23 @@ a:hover{
 .nav-bar-list{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 30px;
+    padding: 0px;
 }
 .nav-bar-list > li{
-    padding: 6px;
+    padding-top: 6px;
+    width: 100%;
+    text-align: center;
+    list-style: none;
 }
 .nav-bar-list > li > a{
     color: white;
     text-decoration: none;
     font-family:'Lato', sans-serif;
+}
+.nav-bar-list > li:hover{
+    background-color: rgb(41, 41, 41);
 }
 /* end nav bar styling */
 
@@ -71,7 +78,45 @@ a:hover{
 #summary > p{
     line-height: 1.5;
 }
-
+#table-of-contents{
+    background-color: rgb(219, 105, 105);
+    width: 30%;
+    padding:10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#table-of-contents >h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#table-of-contents >ol{
+    line-height: 2;
+    list-style: upper-roman;
+}
+#chosen-movie-list{
+    line-height: 1.5;
+}
+#contact{
+    background-color: rgb(121, 0, 0);
+    color: white;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+#links > li > a{
+    color: white;
+    font-family:'Lato', sans-serif;
+}
+#links > li > a:hover{
+    color: rgb(0, 0, 148);
+}
+.small-image{
+    border-radius: 50%;
+    width: 15px;
+}
 /* start upcoming page */
 .upcoming-movie{
     display:flex;
@@ -97,4 +142,3 @@ a:hover{
     grid-gap:1em;
 }
 /* end upcoming page */
-
