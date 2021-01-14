@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+.nav-bar{
+    position:fixed;
+    background-color: black;
+    width: 100%;
+}
+.nav-bar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-bar-list > li > a{
+    color: white;
+    text-decoration: none;
+}
