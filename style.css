@@ -123,6 +123,17 @@ a:hover{
 /* end index page */
 
 /* start movie list page */
+#movie-list{
+    background-color: rgb(219, 105, 105);
+    margin-bottom: 30px;
+    padding: 10px 20px 5px 0px;
+    width: max-content;
+}
+#movie-list > h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
 #movie-list > ol> li{
     margin: 10px 0px;
 }
