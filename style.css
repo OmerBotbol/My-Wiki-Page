@@ -69,7 +69,6 @@ a:hover{
     margin-top: 80px;
     margin-bottom: 10px;
     margin-left: 20%;
-    border:black 1px solid;
 }
 #summary > h3{
     text-align: center;
@@ -138,6 +137,43 @@ a:hover{
     margin: 10px 0px;
 }
 /* end movie list page */
+
+/* start iron man page */
+.info-page-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 40px;
+}
+.info-page-header >h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 18%;
+}
+.year{
+    font-size: 35px;
+    font-family:'Big Shoulders Stencil Text', cursive;
+}
+.movie-poster{
+    display: block;
+    /* margin-left: 20px; */
+    /* margin-right: auto; */
+    width: 220px;
+}
+.movie-trailer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color:rgb(219, 105, 105) ;
+}
+.plot{
+    padding: 20px
+}
+.plot > p{
+    line-height: 1.5em;
+}
+/* end iron man page */
 
 /* start upcoming page */
 .upcoming-movie{
