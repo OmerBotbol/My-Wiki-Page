@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
     font-family:'Lato', sans-serif;
 }
 body{
@@ -12,7 +12,6 @@ h1{
     text-align: center;
 }
 a{
-    font-family:sans-serif;
     text-decoration: none;
     color:black;
 }
@@ -53,21 +52,22 @@ a:hover{
 
 /* start index page */
 .opening-slide{
-    height: 100vh;
-}
-#main-page-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
     text-align: center;
 }
 #main-page-header > h1{
-    padding: 30px 0px 0px 0px;
-}
-#main-page-header > h2{
-    padding-bottom: 30px;
+    font-size: 100px;
+    padding: 0px
 }
 #summary{
     background-color: rgb(219, 105, 105);
     width: 60%;
     padding:10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
     margin-left: 20%;
     border:black 1px solid;
 }
@@ -76,7 +76,8 @@ a:hover{
     font-size: 25px;
 }
 #summary > p{
-    line-height: 1.5;
+    line-height: 1.5em;
+    text-align: left;
 }
 #table-of-contents{
     background-color: rgb(219, 105, 105);
