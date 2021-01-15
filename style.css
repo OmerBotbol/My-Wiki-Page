@@ -63,7 +63,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
+    height: 100vh;
     text-align: center;
 }
 #main-page-header > h1{
@@ -87,9 +87,10 @@ a:hover{
     text-align: left;
 }
 #table-of-contents{
+    display: block;
     background-color: var(--background-light);
-    width: 30%;
-    padding:10px;
+    width: max-content;
+    padding:10px 50px 10px 10px;
     margin-left: 20px;
     margin-bottom: 40px;
 }
@@ -132,9 +133,8 @@ a:hover{
 /* start movie list page */
 #movie-list{
     background-color: var(--background-light);
-    margin-bottom: 30px;
-    margin-left: 20px;
-    padding: 10px 20px 5px 10px;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 0px 5px 10px;
     width: max-content;
 }
 #movie-list > h2{
@@ -220,6 +220,10 @@ a:hover{
     width: 70%;
     padding: 10px 0px;
 }
+.user-review{
+    width: 300px;
+    height: 150px;
+}
 /* end movie page */
 
 /* start top 5 page */
@@ -269,3 +273,27 @@ a:hover{
     grid-gap:1em;
 }
 /* end upcoming page */
+@media (max-width: 1030px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 640px){
+    .info-page-header > h1{
+    margin-left: 20px;
+    margin-right: 10px;
+    }
+    .movie-poster{
+        height: 326px;
+        padding-bottom: 40px;
+    }
+    .user-review{
+        width: 80%;
+    }
+    .movie-trailer{
+        width: 80%;
+    }
+    #movie-list{
+        width: 85%;
+    }
+}
