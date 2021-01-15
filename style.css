@@ -1,6 +1,8 @@
 *{
     margin: 0;
     font-family:'Lato', sans-serif;
+    --background-light:rgb(219, 105, 105);
+    --background-dark:rgb(121, 0, 0);
 }
 body{
     background-color: rgb(255, 61, 61);
@@ -20,6 +22,12 @@ a:hover{
 }
 .movie{
     text-transform: capitalize;
+}
+.button{
+    border-radius: 5px;
+    background-color: rgb(161, 152, 150);
+    width: 50px;
+    height: 20px;
 }
 /* start nav bar styling */
 .nav-bar{
@@ -63,7 +71,7 @@ a:hover{
     padding: 0px
 }
 #summary{
-    background-color: rgb(219, 105, 105);
+    background-color: var(--background-light);
     width: 60%;
     padding:10px;
     margin-top: 80px;
@@ -79,7 +87,7 @@ a:hover{
     text-align: left;
 }
 #table-of-contents{
-    background-color: rgb(219, 105, 105);
+    background-color: var(--background-light);
     width: 30%;
     padding:10px;
     margin-left: 20px;
@@ -99,7 +107,7 @@ a:hover{
     margin: 6px 0px;
 }
 #contact{
-    background-color: rgb(121, 0, 0);
+    background-color: var(--background-dark);
     color: white;
 }
 #links{
@@ -123,7 +131,7 @@ a:hover{
 
 /* start movie list page */
 #movie-list{
-    background-color: rgb(219, 105, 105);
+    background-color: var(--background-light);
     margin-bottom: 30px;
     margin-left: 20px;
     padding: 10px 20px 5px 10px;
@@ -164,11 +172,11 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    background-color:rgb(219, 105, 105) ;
+    background-color:var(--background-light) ;
 }
 .plot{
     padding: 20px;
-    background-color:rgb(219, 105, 105) ;
+    background-color:var(--background-light) ;
     margin: 20px;
 }
 .plot >h2{
@@ -180,13 +188,13 @@ a:hover{
 }
 .platform{
     padding: 20px;
-    background-color:rgb(219, 105, 105) ;
+    background-color:var(--background-light);
     margin: 20px;
     font-size: 20px;
 }
 .reviews{
     padding: 20px;
-    background-color:rgb(219, 105, 105) ;
+    background-color:var(--background-light) ;
     margin: 20px;
 }
 .reviews > h2{
@@ -198,7 +206,7 @@ a:hover{
     width: max-content;
     margin: 20px;
     padding: 10px;
-    background-color:rgb(179, 0, 0) ;
+    background-color:var(--background-dark);
     color: white;
     border-radius: 10px;
     line-height: 1.5em;
@@ -221,14 +229,14 @@ a:hover{
 #top-movies-table{
     width: 100%;
     border-collapse: collapse;
-    background-color:rgb(219, 105, 105) ;
+    background-color:var(--background-light) ;
     line-height: 1.5em;
 }
 #top-movies-table td, #top-movies-table th{
      border:black 1px solid;
 }
 #top-movies-table th{
-    background-color: rgb(121, 0, 0);
+    background-color: var(--background-dark);
     color: white;
 }
 #top-movies-table td{
@@ -242,7 +250,7 @@ a:hover{
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    background-color: rgb(219, 105, 105);
+    background-color: var(--background-light);
 }
 .upcoming-movie > img{
     display: block;
