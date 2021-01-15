@@ -156,8 +156,6 @@ a:hover{
 }
 .movie-poster{
     display: block;
-    /* margin-left: 20px; */
-    /* margin-right: auto; */
     width: 220px;
 }
 .movie-trailer{
@@ -168,10 +166,22 @@ a:hover{
     background-color:rgb(219, 105, 105) ;
 }
 .plot{
-    padding: 20px
+    padding: 20px;
+    background-color:rgb(219, 105, 105) ;
+    margin: 20px;
+}
+.plot >h2{
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 .plot > p{
     line-height: 1.5em;
+}
+.platform{
+    padding: 20px;
+    background-color:rgb(219, 105, 105) ;
+    margin: 20px;
+    font-size: 20px;
 }
 /* end iron man page */
 
