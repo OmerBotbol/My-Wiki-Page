@@ -125,7 +125,8 @@ a:hover{
 #movie-list{
     background-color: rgb(219, 105, 105);
     margin-bottom: 30px;
-    padding: 10px 20px 5px 0px;
+    margin-left: 20px;
+    padding: 10px 20px 5px 10px;
     width: max-content;
 }
 #movie-list > h2{
@@ -138,7 +139,7 @@ a:hover{
 }
 /* end movie list page */
 
-/* start iron man page */
+/* start movie page */
 .info-page-header{
     display: flex;
     flex-direction: row;
@@ -211,7 +212,29 @@ a:hover{
     width: 70%;
     padding: 10px 0px;
 }
-/* end iron man page */
+/* end movie page */
+
+/* start top 5 page */
+#top-movies{
+    padding: 15px;
+}
+#top-movies-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgb(219, 105, 105) ;
+    line-height: 1.5em;
+}
+#top-movies-table td, #top-movies-table th{
+     border:black 1px solid;
+}
+#top-movies-table th{
+    background-color: rgb(121, 0, 0);
+    color: white;
+}
+#top-movies-table td{
+    padding-left:5px;
+}
+/* end top 5 page */
 
 /* start upcoming page */
 .upcoming-movie{
