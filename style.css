@@ -19,6 +19,7 @@ a{
 }
 a:hover{
     color: blue;
+    text-decoration: underline;
 }
 .movie{
     text-transform: capitalize;
